@@ -14,47 +14,32 @@ interface Achievement {
 const achievements: Achievement[] = [
   {
     icon: <Trophy className="h-6 w-6" />,
-    title: "Winner of Hacker House, Goa ($1500 Prize)",
+    title: "Member of IEEE Student Branch - UITU Chapter",
     colorClass: "text-yellow-600 dark:text-yellow-400",
   },
   {
     icon: <Medal className="h-6 w-6" />,
-    title: "Winner of Move it with Aptos Hackathon ($600 Prize)",
+    title: "Data Science Team Lead - Google Developer Students Club",
     colorClass: "text-blue-600 dark:text-blue-400",
   },
   {
-    icon: <Award className="h-6 w-6" />,
-    title: "Winner of HackSRM 5.0 ($500 Prize)",
-    colorClass: "text-green-600 dark:text-green-400",
-  },
-  {
-    icon: <Trophy className="h-6 w-6" />,
-    title: "Winner of Appthon 1.0",
-    colorClass: "text-purple-600 dark:text-purple-400",
-  },
-  {
     icon: <BookOpen className="h-6 w-6" />,
-    title: "Convener of ADD (App Design & Development Club)",
+    title: "Attended Colt Steele's Ultimate Web Developer Bootcamp 2024",
     colorClass: "text-indigo-600 dark:text-indigo-400",
   },
   {
     icon: <Cpu className="h-6 w-6" />,
-    title: "DDoS Attack Detection Researcher",
+    title: "Meta Front-End and Back-End Developer - Specialization",
     colorClass: "text-red-600 dark:text-red-400",
   },
   {
-    icon: <Code className="h-6 w-6" />,
-    title: "Technical Convener of University Student Council",
-    colorClass: "text-teal-600 dark:text-teal-400",
-  },
-  {
     icon: <Gamepad className="h-6 w-6" />,
-    title: "3x Valorant Tournament Champion",
+    title: "Hong Kong University of Science and Technology - Software Engineering Specialization",
     colorClass: "text-amber-600 dark:text-amber-400",
   },
   {
     icon: <Zap className="h-6 w-6" />,
-    title: "Technical Executive of Infinitus (National Level Fest)",
+    title: "SAP Technology Consultant Professional Certification",
     colorClass: "text-cyan-600 dark:text-cyan-400",
   },
 ];
@@ -109,7 +94,12 @@ export function Achievements() {
           <Badge variant="secondary" className="text-sm py-1.5 px-3">Technical Leadership</Badge>
           <Badge variant="secondary" className="text-sm py-1.5 px-3">Hackathon Winner</Badge>
           <Badge variant="secondary" className="text-sm py-1.5 px-3">Research</Badge>
-          <Badge variant="secondary" className="text-sm py-1.5 px-3">Gaming</Badge>
+          <Badge variant="secondary" className="text-sm py-1.5 px-3">Problem Solving</Badge>
+          <Badge variant="secondary" className="text-sm py-1.5 px-3">Open Source</Badge>
+          <Badge variant="secondary" className="text-sm py-1.5 px-3">Time Management</Badge>
+          <Badge variant="secondary" className="text-sm py-1.5 px-3">Project Management</Badge>
+          <Badge variant="secondary" className="text-sm py-1.5 px-3">Communication Skills</Badge>
+
         </div>
       </div>
     </section>

@@ -41,8 +41,8 @@ const getNavIcon = (href: string) => {
       return <Briefcase className="mr-2 h-4 w-4" />;
     case "/projects":
       return <Code className="mr-2 h-4 w-4" />;
-    case "/blog":
-      return <BookOpen className="mr-2 h-4 w-4" />;
+    // case "/blog":
+    //   return <BookOpen className="mr-2 h-4 w-4" />;
     case "/contact":
       return <Mail className="mr-2 h-4 w-4" />;
     default:
@@ -56,7 +56,7 @@ const navItems = [
   { title: "About", href: "/about" },
   { title: "Experience", href: "/experience" },
   { title: "Projects", href: "/projects" },
-  { title: "Blog", href: "/blog" },
+  // { title: "Blog", href: "/blog" },
   { title: "Contact", href: "/contact" },
 ];
 

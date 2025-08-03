@@ -28,6 +28,8 @@ export function ExperienceTimeline() {
         return <Users className="h-5 w-5" />;
       case 'education':
         return <GraduationCap className="h-5 w-5" />;
+      case 'virtual':
+        return <GraduationCap className="h-5 w-5" />;
       default:
         return <Briefcase className="h-5 w-5" />;
     }
@@ -56,6 +58,7 @@ export function ExperienceTimeline() {
               <TabsTrigger value="all" onClick={() => setActiveTab("all")}>All</TabsTrigger>
               <TabsTrigger value="work" onClick={() => setActiveTab("work")}>Work</TabsTrigger>
               <TabsTrigger value="leadership" onClick={() => setActiveTab("leadership")}>Leadership</TabsTrigger>
+              <TabsTrigger value="virtual" onClick={() => setActiveTab("virtual")}>Virtual</TabsTrigger>
               <TabsTrigger value="research" onClick={() => setActiveTab("research")}>Research</TabsTrigger>
             </TabsList>
           </Tabs>

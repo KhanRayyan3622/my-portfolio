@@ -8,138 +8,134 @@ export interface Experience {
     endDate: string;
     description: string;
     achievements: string[];
-    type?: 'work' | 'research' | 'education' | 'leadership';
+    type?: 'work' | 'research' | 'education' | 'leadership' | 'virtual' ;
   }
   
   export const experiences: Experience[] = [
     // Regular job positions
     {
-      id: "full-stack-dev",
-      title: "Full Stack Web Developer",
-      company: "SRM University - AP",
-      location: "Vijayawada, India",
-      startDate: "January 2024",
-      endDate: "June 2024",
-      description: "Designed and implemented a web portal for faculty-student collaboration in UROP and Capstone projects.",
+      id: "xpace",
+      title: "Software Engineer (Artificial Intelligence Intern)",
+      company: "XPACE TECHNOLOGIES (Pvt) Ltd",
+      location: "Karachi, Pakistan",
+      startDate: "May 2024",
+      endDate: "July 2024",
+      description: "Collaborated with engineering and data science teams to support the end-to-end development lifecycle of AI solutions handling data preparation, model evaluation, pipeline integration, and documentation while ensuring quality standards and best practices were met.",
       achievements: [
-        "Developed a full-stack web portal using React.js, Node.js, and MongoDB for 3000+ UROP/Capstone students",
-        "Enabled task tracking, document sharing, and access control to streamline collaboration",
-        "Optimized and enhanced UI/UX, reducing page load time by 60% and improving responsiveness across devices",
-        "Achieved 75% grading accuracy improvement and 50% evaluation efficiency boost through workflow automation"
-      ],
-      type: 'work'
-    },
-    {
-      id: "tech-intern",
-      title: "Technical Intern",
-      company: "SRM University - AP",
-      location: "Vijayawada, India",
-      startDate: "October 2023",
-      endDate: "June 2024",
-      description: "Directed technical operations for university events, encompassing website development and promotional materials.",
-      achievements: [
-        "Orchestrated technical operations for 30+ university events, designing and deploying websites with integrated payment gateways",
-        "Increased event participation by 25% through effective technical solutions",
-        "Engineered dashboards and automated flows, increasing user satisfaction by 75% and cutting coordination time by 60%",
-        "Ensured smooth execution through cross-functional collaboration, achieving 95% client satisfaction"
+        "Built a fraud-detection ML pipeline using Python and scikit-learn, improving detection accuracy by 12%",
+        "Developed an image-classification module for self-driving car simulation using TensorFlow",
+        "Developed a data-driven agriculture solution, considering soil minerals, humidity, temperature, and rainfall parameters",
+        "Contributed to the design and implementation of a chatbot system with rule-based responses, enhancing user engagement and interaction",
+        "Created an AI application capable of detecting and recognizing faces in images or videos, contributing to the advancement of facial recognition technology"
       ],
       type: 'work'
     },
     // Research positions
-    {
-      id: "ddos-detection",
-      title: "DDoS Attack Detection using Deep Learning",
-      company: "SRM University - AP",
-      location: "Vijayawada, India",
-      startDate: "March 2023",
-      endDate: "May 2023",
-      description: "Research under Dr. Sambit Kumar Mishra on detecting DDoS attacks in cloud environments using deep learning techniques.",
+      {
+      id: "risc-v-processor",
+      title: "Summer Internship (Trainee Internee)",
+      company: "Micro Electronics Research Laboratory (MERL)",
+      location: "Pakistan",
+      startDate: "June 2023",
+      endDate: "August 2023",
+      description: "Trainer Internee during my summer internship at Pakistan’s first microelectronics research lab (MERL) initiated by Dr. Rumi Naqvi in collaboration with RISC-V.",
       achievements: [
-        "Developed advanced anomaly detection algorithms, achieving an impressive 82% accuracy in threat detection",
-        "Swiftly implemented countermeasures to thwart potential attacks, resulting in a 40% reduction in security breaches",
-        "Applied deep learning models to identify patterns in network traffic for real-time detection of suspicious activities",
-        "Created a scalable monitoring system to handle large volumes of cloud traffic with minimal false positives"
+        "Designed and implemented a RISC-V Single-Cycle Processor using Chisel, Scala, and Verilog",
+        "Developed and simulated 5-stage pipelined RISC-V CPU architecture",
+        "Built instruction fetch, decode, execute, memory, and write-back modules with hazard detection",
+        "Worked on functional programming principles for hardware description and generation",
       ],
       type: 'research'
     },
     {
-      id: "education-prediction",
-      title: "Higher Education Prediction Algorithm",
-      company: "SRM University - AP",
-      location: "Vijayawada, India",
-      startDate: "June 2022",
-      endDate: "October 2022",
-      description: "Research under Prof. T. Ragunathan on predicting student acceptance into Master's programs based on academic performance metrics.",
-      achievements: [
-        "Developed an AI ML model predicting student acceptance into Masters PG College with 78% accuracy",
-        "Trained the model on diverse exam scores to suggest colleges based on proximity to students' IELTS, GRE, and TOEFL scores",
-        "Led data acquisition and cleansing, ensuring dataset integrity with a 95% accuracy rate",
-        "Optimized the algorithm for efficiency and reliability in making personalized education recommendations"
-      ],
-      type: 'research'
-    },
-    {
-        id: "technical-executive",
-        title: "Technical Executive",
-        company: "Student Council SRM University - AP",
-        location: "Vijayawada, India",
+        id: "ieee",
+        title: "IEEE Student Branch - UITU Chapter Member",
+        company: "Usman Institute of Technology (NED)",
+        location: "Karachi, Pakistan",
         startDate: "August 2023",
         endDate: "May 2024",
-        description: "Oversaw technical operations for university events and initiatives as part of the Student Council.",
+        description: "Worked with fellow student leaders to plan and execute technical workshops, awareness campaigns, and networking events that promoted IEEE’s mission and professional development on campus.",
         achievements: [
-          "Oversaw technical operations, utilizing advanced methodologies to achieve project milestones",
-          "Engineered and enhanced event websites for cultural festivals, ensuring top-tier performance with creative designs",
-          "Managed audiovisual equipment, software applications, and ensured seamless online and offline interactions",
-          "Resolved technical issues promptly, minimizing disruptions and maintaining high standards of execution"
+          "I actively contributed to the IEEE awareness session hosted by IEEE Women in Engineering, Karachi Section, helping to promote IEEE’s mission and values",
+          " Additionally, I collaborated with the IEEE UITU Chapter on various events and activities"
         ],
         type: 'leadership'
       },
       {
-        id: "technical-convener",
-        title: "Technical Team Convener",
-        company: "Student Council SRM University - AP",
-        location: "Vijayawada, India",
+        id: "gdsc",
+        title: " Google Developer Students Club - Data Science Lead",
+        company: "Usman Institute of Technology (NED)",
+        location: "Karachi, Pakistan",
         startDate: "May 2022",
         endDate: "May 2024",
-        description: "Led the university's technical team, organizing and executing technical aspects of student events.",
+        description: "Led the university's GDSC Data Science team, organizing and executing technical aspects of student events.",
         achievements: [
-          "Led multidisciplinary technical team, achieving seamless collaboration and innovative solutions",
-          "Organized brainstorming sessions with team members to generate website ideas and review progress",
-          "Increased student engagement by 40% through committee formation and industry-aligned website redesigns",
-          "Bridged the gap between technical requirements and student initiatives"
+          "As the Data Science Lead at Google Developer Students Club, I lead data-driven initiatives and foster learning in the field of data science",
+          "I am responsible for organizing workshops, promoting collaborative projects, and mentoring fellow students in data science topics"
         ],
         type: 'leadership'
       },
+      // {
+      //   id: "gce",
+      //   title: "Github Campus Expert (NEW)",
+      //   company: "Usman Institute of Technology (NED)",
+      //   location: "Karachi, Pakistan",
+      //   startDate: "May 2021",
+      //   endDate: "May 2022",
+      //   description: "Served as an active member of the university's student council, contributing to student initiatives.",
+      //   achievements: [
+      //     "Played a pivotal role in organizing and executing various student events and initiatives",
+      //     "Collaborated effectively with peers and faculty ensuring the smooth execution of events",
+      //     "Enhanced the overall student experience through meticulous planning and coordination",
+      //     "Contributed to website development and technical aspects of student programs"
+      //   ],
+      //   type: 'leadership'
+      // },
       {
-        id: "student-council-member",
-        title: "Member",
-        company: "Student Council SRM University - AP",
-        location: "Andhra Pradesh, India",
-        startDate: "May 2021",
-        endDate: "May 2022",
-        description: "Served as an active member of the university's student council, contributing to student initiatives.",
-        achievements: [
-          "Played a pivotal role in organizing and executing various student events and initiatives",
-          "Collaborated effectively with peers and faculty ensuring the smooth execution of events",
-          "Enhanced the overall student experience through meticulous planning and coordination",
-          "Contributed to website development and technical aspects of student programs"
-        ],
-        type: 'leadership'
-      },
-      {
-        id: "student-council-affiliate",
-        title: "Affiliate",
-        company: "Student Council SRM University - AP",
-        location: "Vijayawada, India",
+        id: "walmart",
+        title: "Advanced Software Engineering",
+        company: "Walmart Global Tech",
+        location: "Karachi, Pakistan",
         startDate: "November 2020",
         endDate: "May 2021",
-        description: "Started as an affiliate member in the student council, supporting various initiatives.",
+        description: "Solved complex technical challenges for a range of Walmart departments as part of their software engineering team (Job Simulation).",
         achievements: [
-          "Assisted in the organization and execution of student events",
-          "Supported the technical team with website and digital content",
-          "Contributed to planning and logistics for university programs",
-          "Participated in student engagement activities and feedback collection"
+          "Implemented a power-of-two max-heap in Java and benchmarked its performance for efficient data handling",
+          "Modeled and normalized a relational database schema using SQL to support scalable data storage and integrity",
+          "Developed Python scripts for data munging, handling raw datasets by cleaning, transforming, and validating data"
         ],
-        type: 'leadership'
+        type: 'virtual'
+      },
+      {
+        id: "hp",
+        title: "Software Engineering (Career Track)",
+        company: "Hewlett Packard Enterprise",
+        location: "Karachi, Pakistan",
+        startDate: "November 2020",
+        endDate: "May 2021",
+        description: "Designed a RESTful web service using Java Spring Boot and GreenLake Cloud Platform as a back-end developer at HPE.",
+        achievements: [
+          "Wrote a proposal for a RESTful web service to manage a list of employees",
+          "Built a basic RESTful web service using Java Spring Boot and HPE GreenLake",
+          "Developed and ran unit tests using Mockito and JUnit to assess application performance",
+          "Implemented support for uploading JSON data to the application"
+        ],
+        type: 'virtual'
+      },
+      {
+        id: "jpm",
+        title: "Software Engineering",
+        company: "JP Morgan Chase & Co.",
+        location: "Karachi, Pakistan",
+        startDate: "November 2020",
+        endDate: "May 2021",
+        description: "Completed JP Morgan Chase & Co.’s Forage virtual Software Engineering simulation, implementing Java/Spring Boot microservices with Kafka integrations and RESTful APIs.",
+        achievements: [
+          "Configured a Java/Spring Boot project with Maven and Git",
+          "Integrated Apache Kafka for event-driven microservices",
+          "Set up an H2 in-memory database for rapid development and testing",
+          "Developed RESTful endpoints and integrated a third-party API"
+        ],
+        type: 'virtual'
       }
   ];
