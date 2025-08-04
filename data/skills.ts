@@ -2,7 +2,7 @@
 export type SkillCategory = 
   | 'Languages' 
   | 'Frameworks/Libraries' 
-  // | 'ML/Data' 
+  | 'AI/ML' 
   | 'Blockchain/Web3.0' 
   | 'Cloud/DevOps' 
   | 'Concepts';
@@ -61,16 +61,16 @@ export const skills: Record<SkillCategory, Skill[]> = {
     { name: 'Figma', category: 'Frameworks/Libraries', logoKey: 'figma' },
   ],
 
-  // 'ML/Data': [
-  //   { name: 'TensorFlow', category: 'ML/Data', logoKey: 'tensorflow' },
-  //   { name: 'PyTorch', category: 'ML/Data', logoKey: 'pytorch' },
-  //   { name: 'Supervised Learning', category: 'ML/Data', logoKey: 'python' },
-  //   { name: 'Deep Learning', category: 'ML/Data', logoKey: 'tensorflow' },
-  //   { name: 'Neural Networks', category: 'ML/Data', logoKey: 'python' },
-  //   { name: 'pandas', category: 'ML/Data', logoKey: 'pandas' },
-  //   { name: 'scikit-learn', category: 'ML/Data', logoKey: 'python' },
-  //   { name: 'Data Visualization', category: 'ML/Data', logoKey: 'jupyter' },
-  // ],
+  'AI/ML': [
+    { name: 'TensorFlow', category: 'AI/ML', logoKey: 'tensorflow' },
+    { name: 'PyTorch', category: 'AI/ML', logoKey: 'pytorch' },
+    { name: 'Supervised Learning', category: 'AI/ML', logoKey: 'python' },
+    { name: 'Deep Learning', category: 'AI/ML', logoKey: 'tensorflow' },
+    { name: 'Neural Networks', category: 'AI/ML', logoKey: 'python' },
+    { name: 'pandas', category: 'AI/ML', logoKey: 'pandas' },
+    { name: 'scikit-learn', category: 'AI/ML', logoKey: 'python' },
+    { name: 'Data Visualization', category: 'AI/ML', logoKey: 'jupyter' },
+  ],
 'Blockchain/Web3.0': [
   { name: 'Solana',        category: 'Blockchain/Web3.0', logoKey: 'solana' },
   { name: 'Web3.js',       category: 'Blockchain/Web3.0', logoKey: 'javascript' },

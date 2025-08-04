@@ -32,7 +32,7 @@ import {
       'palette': Palette,
       'tablet': Tablet,
       
-      // ML/Data
+      // AI/ML
       'badge-plus': BadgePlus,
       'bar-chart': BarChart,
       'brain': Brain,

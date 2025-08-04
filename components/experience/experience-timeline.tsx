@@ -54,7 +54,7 @@ export function ExperienceTimeline() {
         
         <div className="flex justify-center mt-8">
           <Tabs defaultValue="all" className="w-full max-w-md">
-            <TabsList className="grid grid-cols-4 w-full">
+            <TabsList className="grid grid-cols-5 w-full">
               <TabsTrigger value="all" onClick={() => setActiveTab("all")}>All</TabsTrigger>
               <TabsTrigger value="work" onClick={() => setActiveTab("work")}>Work</TabsTrigger>
               <TabsTrigger value="leadership" onClick={() => setActiveTab("leadership")}>Leadership</TabsTrigger>

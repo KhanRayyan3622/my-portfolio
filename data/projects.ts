@@ -12,23 +12,41 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  // {
+  //   id: "zenith",
+  //   title: "Zenith",
+  //   description: "A decentralized music application enabling artists to mint and sell their music as NFTs.",
+  //   longDescription: "Developed a decentralized music platform for artists to mint and sell NFTs with Solidity and IPFS, enabling transactions and faster monetization via Polygon. Implemented role-based access and interactive features like community hubs, increasing session duration substantially.",
+  //   technologies: ["Solidity", "Polygon", "Ethereum", "IPFS", "Next.js", "TypeScript", "TailwindCSS", "Smart Contracts", "Web3.js", "Blockchain"],
+  //   achievements: [
+  //     "Built for 150+ artists to mint and sell NFTs with Solidity and IPFS",
+  //     "Enabled 300+ transactions and 30% faster monetization via Polygon",
+  //     "Implemented role-based access and interactive features like community hubs, increasing session duration by 65%",
+  //     "Eliminated third-party dependencies and automated royalty payouts, reducing overhead and platform latency by 30%"
+  //   ],
+  //   image: "/images/projects/zenith/zenith.jpg",
+  //   github: "https://github.com/achyut21/zenith",
+  //   liveUrl: "https://devfolio.co/projects/zenith-202e",
+  //   featured: true
+  // },
   {
-    id: "zenith",
-    title: "Zenith",
-    description: "A decentralized music application enabling artists to mint and sell their music as NFTs.",
-    longDescription: "Developed a decentralized music platform for artists to mint and sell NFTs with Solidity and IPFS, enabling transactions and faster monetization via Polygon. Implemented role-based access and interactive features like community hubs, increasing session duration substantially.",
-    technologies: ["Solidity", "Polygon", "Ethereum", "IPFS", "Next.js", "TypeScript", "TailwindCSS", "Smart Contracts", "Web3.js", "Blockchain"],
+    id: "krypt",
+    title: "Krypt",
+    description: "A Web 3.0 blockchain application enabling users to send Ethereum transactions securely.",
+    longDescription: "Built a modern Web 3.0 blockchain app using React, Solidity, and MetaMask integration, enabling users to connect their wallets, send Ethereum transactions, and interact with smart contracts. Designed with TailwindCSS for a responsive UI and deployed using Alchemy for blockchain connectivity.",
+    technologies: ["Solidity", "Ethereum", "React.js", "TailwindCSS", "MetaMask", "Alchemy", "Ethers.js", "Smart Contracts", "Blockchain"],
     achievements: [
-      "Built for 150+ artists to mint and sell NFTs with Solidity and IPFS",
-      "Enabled 300+ transactions and 30% faster monetization via Polygon",
-      "Implemented role-based access and interactive features like community hubs, increasing session duration by 65%",
-      "Eliminated third-party dependencies and automated royalty payouts, reducing overhead and platform latency by 30%"
+      "Implemented Ethereum blockchain transactions with Solidity smart contracts",
+      "Integrated MetaMask for secure wallet connection and transaction signing",
+      "Designed a fully responsive UI with TailwindCSS and React.js",
+      "Deployed the application to blockchain test networks using Alchemy"
     ],
-    image: "/images/projects/zenith/zenith.jpg",
-    github: "https://github.com/achyut21/zenith",
-    liveUrl: "https://devfolio.co/projects/zenith-202e",
+    image: "/images/projects/krypt/krypt.jpg",
+    github: "https://github.com/adrianhajdin/project_web3.0",
+    liveUrl: "https://youtu.be/Wn_Kb3MR_cU",
     featured: true
   },
+
   {
     id: "pokearena",
     title: "PokeArena",
