@@ -70,7 +70,7 @@ export function Hero() {
                 transition={{ duration: 0.5 }}
               >
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Hi, I&apos;m Muhammad Rayyan Khan
+                  Hi, I&apos;m M. Rayyan Khan
                 </h1>
               </motion.div>
               <motion.div
