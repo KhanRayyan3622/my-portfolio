@@ -3,7 +3,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { Plus, Home, User, Briefcase, Code, BookOpen, Mail, Github, Linkedin, Phone, X } from "lucide-react";
+//import { Plus, Home, User, Briefcase, Code, BookOpen, Mail, Github, Linkedin, Phone, X } from "lucide-react";
+import { Plus, Home, User, Briefcase, Code, Mail, Github, Linkedin, Phone, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { 
   DropdownMenu, 
