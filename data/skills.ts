@@ -5,7 +5,7 @@ export type SkillCategory =
   | 'AI/ML' 
   | 'Blockchain/Web3.0' 
   | 'Cloud/DevOps' 
-  | 'Concepts';
+//  | 'Concepts';
 
 export interface Skill {
   name: string;
