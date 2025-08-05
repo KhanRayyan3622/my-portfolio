@@ -80,7 +80,7 @@ export const skills: Record<SkillCategory, Skill[]> = {
   { name: 'Ethereum',      category: 'Blockchain/Web3.0', logoKey: 'ethereum' },
   { name: 'Aptos',         category: 'Blockchain/Web3.0', logoKey: 'aptos' },
   { name: 'Move',          category: 'Blockchain/Web3.0', logoKey: 'aptos' },
-  { name: 'Smart Contracts', category: 'Blockchain/Web3', logoKey: 'solidity' },
+  { name: 'Smart Contracts', category: 'Blockchain/Web3.0', logoKey: 'solidity' },
   { name: 'Rust',          category: 'Blockchain/Web3.0', logoKey: 'rust' },
   { name: 'Solidity',      category: 'Blockchain/Web3.0', logoKey: 'solidity' },
   { name: 'MetaMask',      category: 'Blockchain/Web3.0', logoKey: 'metamask' },
