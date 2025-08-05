@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { Search, ArrowRight, Home, User, Briefcase, Code, BookOpen, Mail } from 'lucide-react';
+import { Search, ArrowRight, Home, User, Briefcase, Code, Mail } from 'lucide-react';
+//import { Search, ArrowRight, Home, User, Briefcase, Code, BookOpen, Mail } from 'lucide-react';
 import { 
   CommandDialog, 
   CommandInput, 

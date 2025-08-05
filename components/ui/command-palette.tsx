@@ -4,7 +4,8 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
-import { Search, ArrowRight, Home, User, Briefcase, Code, BookOpen, Mail, Github, Linkedin, Phone } from 'lucide-react';
+import { Search, ArrowRight, Home, User, Briefcase, Code, Mail, Github, Linkedin, Phone } from 'lucide-react';
+// import { Search, ArrowRight, Home, User, Briefcase, Code, BookOpen, Mail, Github, Linkedin, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { socialLinks } from "@/data/social";
