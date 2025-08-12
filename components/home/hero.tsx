@@ -12,9 +12,9 @@ export function Hero() {
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
   const displayedSkills = [
     "Full Stack Developer (Cloud)",
-    "Web 3.0 Blockchain Enthusiast",
+    "AI/ML Enthusiast",
     "ERP CRM Systems",
-    "UI/UX Designer"
+    "Learning Web 3.0 (Blockchain)"
   ];
 
   // Parallax effect setup

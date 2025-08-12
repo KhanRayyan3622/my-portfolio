@@ -46,7 +46,54 @@ export const projects: Project[] = [
     liveUrl: "https://youtu.be/Wn_Kb3MR_cU",
     featured: true
   },
-
+  {
+    id: "jobassistant",
+    title: "JobAssistant.ai",
+    description: "An AI-powered SaaS platform providing job market insights and automated application assistance.",
+    longDescription: "Designed and implemented a scalable SaaS web application using Next.js 15, React, and Tailwind CSS, with Clerk for authentication and Convex for real-time data and backend functions. Built multi-tenant user flows including signup, subscription management, and usage tracking, with secure server-side routes for API calls and file/asset handling. Implemented AI-powered content generation features and a responsive dashboard that updates in real-time, optimized for fast first-load performance. Deployed the production app with continuous deployment and infrastructure configuration for reliability and automated scaling.",
+    technologies: ["Next.js", "React.js", "TailwindCSS", "Clerk", "Convex", "SaaS", "Multi-Tenant", "AI Integration", "Content Generation"],
+    achievements: [
+      "Built a multi-tenant SaaS application with secure authentication and subscription management",
+      "Integrated AI-powered content generation features for job insights",
+      "Developed real-time data handling with Convex backend functions",
+      "Optimized build performance for fast first-load and deployed with continuous integration"
+    ],
+    image: "/images/projects/jobassistant/jobassistant.jpg",
+    github: "https://github.com/TechWithEmmaYT/AI-Job-Assistant-Saas-Platform",
+    featured: true
+  },
+  {
+    id: "managix",
+    title: "Managix",
+    description: "Cloud-based project management platform with secure user access and real-time collaboration.",
+    longDescription: "Developed Managix, a full-stack project management web app built with Next.js (frontend) and a Node.js backend, deployed on AWS. The application features AWS Cognito for authentication, AWS EC2 for hosting backend services, AWS RDS (PostgreSQL) for database storage, and utilises Tailwind CSS for modern, responsive UI.",
+    technologies: ["Next.js", "Node.js", "Tailwind CSS", "AWS Cognito", "AWS EC2", "AWS RDS (PostgreSQL)", "Express.js"],
+    achievements: [
+      "Implemented secure user authentication and session management using AWS Cognito.",
+      "Deployed backend REST API services on AWS EC2 with Express.js and server-side rendering with Next.js.",
+      "Configured AWS RDS Postgres for robust, managed database storage.",
+      "Created a responsive and modular UI with Tailwind CSS for improved UX."
+    ],
+    image: "/images/projects/managix/managix.jpg",
+    github: "", // Add link if available or remove field
+    featured: false
+  },
+  {
+    id: "neurocode",
+    title: "Neurocode",
+    description: "Developer collaboration platform with intelligent code documentation and contextual search.",
+    longDescription: "Built Neurocode, a developer collaboration web application that automates code understanding and meeting summarization. Features include auto-generated documentation, contextual codebase search, commit message summaries, meeting transcription, and AI-assisted insights to support teamwork and onboarding.",
+    technologies: ["Next.js", "Python", "Docker", "AI (RAG-style)", "Contextual Search", "Meeting Transcription"],
+    achievements: [
+      "Automated code documentation generation directly from project repositories.",
+      "Implemented context-aware search across codebases for efficient developer navigation.",
+      "Built real-time meeting transcription and searchable summaries to improve team awareness.",
+      "Leveraged microservices architecture containerized with Docker for easy development and deployment."
+    ],
+    image: "/images/projects/neurocode/neurocode.jpg",
+    github: "https://github.com/Elliott-Chong/Dionysuss",
+    featured: false
+  },
   {
     id: "pokearena",
     title: "PokeArena",

@@ -5,6 +5,7 @@ export type SkillCategory =
   | 'AI/ML' 
   | 'Blockchain/Web3.0' 
   | 'Cloud/DevOps' 
+  | 'AI Automation'
 //  | 'Concepts';
 
 export interface Skill {
@@ -71,20 +72,35 @@ export const skills: Record<SkillCategory, Skill[]> = {
     { name: 'scikit-learn', category: 'AI/ML', logoKey: 'python' },
     { name: 'Data Visualization', category: 'AI/ML', logoKey: 'jupyter' },
   ],
-'Blockchain/Web3.0': [
-  { name: 'Solana',        category: 'Blockchain/Web3.0', logoKey: 'solana' },
-  { name: 'Web3.js',       category: 'Blockchain/Web3.0', logoKey: 'javascript' },
-  { name: 'Ethers.js',     category: 'Blockchain/Web3.0', logoKey: 'ethereum' },
-  { name: 'IPFS',          category: 'Blockchain/Web3.0', logoKey: 'ipfs' },
-  { name: 'Polygon',       category: 'Blockchain/Web3.0', logoKey: 'polygon' },
-  { name: 'Ethereum',      category: 'Blockchain/Web3.0', logoKey: 'ethereum' },
-  { name: 'Aptos',         category: 'Blockchain/Web3.0', logoKey: 'aptos' },
-  { name: 'Move',          category: 'Blockchain/Web3.0', logoKey: 'aptos' },
-  { name: 'Smart Contracts', category: 'Blockchain/Web3.0', logoKey: 'solidity' },
-  { name: 'Rust',          category: 'Blockchain/Web3.0', logoKey: 'rust' },
-  { name: 'Solidity',      category: 'Blockchain/Web3.0', logoKey: 'solidity' },
-  { name: 'MetaMask',      category: 'Blockchain/Web3.0', logoKey: 'metamask' },
-],
+
+  'AI Automation': [
+    { name: 'LangChain', category: 'AI Automation', logoKey: 'langchain' },
+    { name: 'LangGraph', category: 'AI Automation', logoKey: 'langgraph' },
+    { name: 'Zapier', category: 'AI Automation', logoKey: 'zapier' },
+    { name: 'Make (Integromat)', category: 'AI Automation', logoKey: 'make' },
+    { name: 'OpenAI GPTs', category: 'AI Automation', logoKey: 'openai' },
+    { name: 'Retrieval-Augmented Generation (RAG)', category: 'AI Automation', logoKey: 'rag' },
+    { name: 'Vector Databases (Pinecone, ChromaDB, FAISS)', category: 'AI Automation', logoKey: 'vector' },
+    { name: 'RPA Tools (UiPath, Automation Anywhere)', category: 'AI Automation', logoKey: 'uipath' },
+    { name: 'Agentic AI Design', category: 'AI Automation', logoKey: 'agenticai' },
+    { name: 'Autonomous AI Agents', category: 'AI Automation', logoKey: 'autonomous' },
+    { name: 'API Orchestration', category: 'AI Automation', logoKey: 'api' },
+  ],
+
+  'Blockchain/Web3.0': [
+    { name: 'Solana',        category: 'Blockchain/Web3.0', logoKey: 'solana' },
+    { name: 'Web3.js',       category: 'Blockchain/Web3.0', logoKey: 'javascript' },
+    { name: 'Ethers.js',     category: 'Blockchain/Web3.0', logoKey: 'ethereum' },
+    { name: 'IPFS',          category: 'Blockchain/Web3.0', logoKey: 'ipfs' },
+    { name: 'Polygon',       category: 'Blockchain/Web3.0', logoKey: 'polygon' },
+    { name: 'Ethereum',      category: 'Blockchain/Web3.0', logoKey: 'ethereum' },
+    { name: 'Aptos',         category: 'Blockchain/Web3.0', logoKey: 'aptos' },
+    { name: 'Move',          category: 'Blockchain/Web3.0', logoKey: 'aptos' },
+    { name: 'Smart Contracts', category: 'Blockchain/Web3.0', logoKey: 'solidity' },
+    { name: 'Rust',          category: 'Blockchain/Web3.0', logoKey: 'rust' },
+    { name: 'Solidity',      category: 'Blockchain/Web3.0', logoKey: 'solidity' },
+    { name: 'MetaMask',      category: 'Blockchain/Web3.0', logoKey: 'metamask' },
+  ],
 
   'Cloud/DevOps': [
     { name: 'Amazon Web Services', category: 'Cloud/DevOps', logoKey: 'aws' }, // corrected logoKey

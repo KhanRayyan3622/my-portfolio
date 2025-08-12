@@ -5,7 +5,7 @@ import {
     Coins, Boxes, Link, LockKeyhole, Wallet, FolderArchive,
     Cloud, CloudCog, Container, GitBranch, Layers, CircleDashed, UploadCloud,
     Cpu, Network, Bot, Share2, Settings, Zap, ShieldCheck,
-    LucideIcon, LucideProps 
+    LucideIcon, LucideProps, MessageCircle
   } from "lucide-react";
   
   interface SkillIconProps extends LucideProps {
@@ -64,6 +64,22 @@ import {
       'settings': Settings,
       'zap': Zap,
       'shield-check': ShieldCheck,
+
+      // Automation
+      'automation': Settings,
+      'workflow': Share2,
+      'zapier': Zap,
+      'make': Network,
+      'langchain': Link,
+      'langgraph': GitBranch,
+      'openai': Brain,
+      'chatgpt': MessageCircle, 
+      'uipath': Cpu,           
+      'powerautomate': CloudCog, 
+      'autogen': Bot,          
+      'beeagent': ShieldCheck,   
+      'vectordb': Database, 
+
     };
     
     const IconComponent = iconMap[name] || Code; // Fallback to Code icon

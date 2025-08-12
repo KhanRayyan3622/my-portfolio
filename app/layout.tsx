@@ -4,19 +4,19 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "M. Rayyan Khan | Software Developer",
-  description: "Full Stack Developer & Web 3.0 Blockchain Enthusiast with expertise in Next.js, React, and blockchain technologies.",
+  description: "Full Stack Developer & AI/ML Enthusiast with expertise in Next.js, React, and blockchain technologies.",
   metadataBase: new URL("https://rayyankhan.com"),
   
   // Basic metadata
   applicationName: "Rayyan Khan Portfolio",
   authors: [{ name: "Rayyan Khan" }],
-  keywords: ["Full Stack Developer", "Web3", "Blockchain", "Next.js", "React", "Machine Learning"],
+  keywords: ["Full Stack Developer", "Web3", "Next.js", "React", "Machine Learning"],
   
   openGraph: {
     type: "website",
     url: "https://rayyankhan.com",
     title: "Rayyan Khan | Full Stack Developer",
-    description: "Full Stack Developer & Blockchain and Machine Learning Enthusiast with expertise in Next.js, React, and blockchain technologies.",
+    description: "Full Stack Developer & AI/ML Enthusiast with expertise in Next.js, React, and blockchain technologies.",
     siteName: "Rayyan Khan",
     locale: "en_US",
     images: [
